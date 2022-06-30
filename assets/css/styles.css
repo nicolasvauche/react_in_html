@@ -1,0 +1,62 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.app-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0.25rem;
+  border: 2px solid #0056a4;
+  border-radius: 0.5rem;
+}
+
+.app-header .app-logo {
+  display: block;
+}
+
+.app-header .app-logo img {
+  display: block;
+  height: 1.5rem;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #0056a4;
+}
+
+.app-navigation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-navigation a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+  padding: 0.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0056a4;
+}
+
+.app-navigation a.active {
+  color: #ffffff;
+  background-color: #0056a4;
+}
+
+.app-main section {
+  padding: 3rem 0.5rem;
+}
+
+.app-main section h2 {
+  color: #0056a4;
+}
